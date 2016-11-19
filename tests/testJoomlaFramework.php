@@ -248,8 +248,9 @@ class JModelLegacy {
 	public function getPagination() {
 		return new JPagination();
 	}
-	public function save($item} {}
-	public function delete($ids=array()) {}
+	public function save($item} {
+		
+	}
 }
 class JViewLegacy {
 	public function setLayout($str) {
