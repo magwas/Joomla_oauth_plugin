@@ -233,7 +233,7 @@ class JModelLegacy {
 	public function check($data) {
 		
 	}
-	public function canDelete($data) {
+	public function canDelete($id=0) {
 		
 	}
 	public function setError($str) {
@@ -242,6 +242,14 @@ class JModelLegacy {
 	public function getError() {
 		
 	}
+	public function getState($name, $default='') {
+		return $default;
+	}
+	public function getPagination() {
+		return new JPagination();
+	}
+	public function save($item} {}
+	public function delete($ids=array()) {}
 }
 class JViewLegacy {
 	public function setLayout($str) {
@@ -252,6 +260,11 @@ class JViewLegacy {
 	}
 }
 
+class JPagination {
+  public function getListFooter() {
+	  return 'pagination';
+  }
+}
 // global functions
 function jimport($str) {}
 
