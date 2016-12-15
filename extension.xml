@@ -7,7 +7,7 @@
 	<documentation_link>https://github.com/edemo/Joomla_oauth_plugin/blob/master/README.md</documentation_link>
 	<support_link>https://github.com/edemo/Joomla_oauth_plugin/issues</support_link>
 	<license_link></license_link>
-	<version>4.00</version>
+	<version>4.01</version>
 	<compatibility>
 		<version>3.[0123456]</version>
 	</compatibility>
