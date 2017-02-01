@@ -22,7 +22,7 @@ ADA login - Joomla integration preparation
 ==========================================
 ADA contact the system administrator (info@adatom.hu) Data to be given:
    The Joomla system domain name (eg: li-de.tk)
-   Redirect link https://yourdomain.hu/components/com_adalogin/index.php 
+   Redirect link: https://yourdomain.hu/adalogin/index.php  (pl: https:/li-de.tk/adalogin/index.php)
 The ADA system administrators will receive the following:
    Key application (appkey)
    Secret (Secret)
