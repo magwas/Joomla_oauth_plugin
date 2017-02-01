@@ -43,10 +43,10 @@ class adaloginControllerTest extends PHPUnit_Framework_TestCase {
 		$testData->setInput('redi','');
         $controller = new AdaloginController();
         $controller->dologin();
-		$this->expectOutputRegex('/testJoomlaFramwork view\.display regist/');   
+        $this->expectOutputRegex('/testJoomlaFramwork view\.display regist/');   
     } 
     public function test_dologin_user_exists()  {
-		global $testData,$componentName;
+    	global $testData,$componentName;
 		$this->setupConfig();
 		$testData->addDbResult(JSON_decode('{
 		"id":1, 

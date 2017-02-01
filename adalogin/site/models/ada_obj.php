@@ -158,8 +158,6 @@ class AdaloginModelAda_obj {
 		if (is_array($userData->assurances)) {
 			$userData->assurances = JSON_encode($userData->assurances);
 		}
-		//$this->home = str_replace('https:','http:',$this->home); //uncomment if https: not supported
-		$userData = JSON_decode('{"userid":30,"email":"30@adatom.hu"}');	
 	
 		if (isset($userData->userid)) {
 			echo '<html>

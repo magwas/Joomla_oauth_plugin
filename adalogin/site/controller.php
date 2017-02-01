@@ -77,6 +77,7 @@ class AdaloginController extends JControllerLegacy
 		$view->set('assurance',$assurance);
 		$view->set('redi',base64_encode($redi));
 		$view->setLayout('regist');
+		var_dump($view);
 		$view->display();
 	}
 	
@@ -95,7 +96,7 @@ class AdaloginController extends JControllerLegacy
 		$viewType = $document->getType();
 		$view = $this->getView($this->_viewname,$viewType);
 		$model = $this->getModel($this->_mainmodel);
-	    $ada = new AdaloginModelAda_obj();	
+		$ada = new AdaloginModelAda_obj();	
 		$model->set('PSW',$ada->joomla_psw);
 		$view->setModel($model,true);
 		$user = $model->getUser($adaid, $adaemail);

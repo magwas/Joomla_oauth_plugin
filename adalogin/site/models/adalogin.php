@@ -16,9 +16,6 @@ defined('_JEXEC') or die('Restricted access');
  */
  
 jimport( 'joomla.application.component.model' ); 
-if (file_exists(JPATH_ADMINISTRATOR.'/components/com_users/models/group.php'))
-   include_once JPATH_ADMINISTRATOR.'/components/com_users/models/group.php';
-
 
 /**
 * this component not use model
